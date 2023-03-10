@@ -59,7 +59,7 @@ app.post("/", (req, res) =>
     {
         method:"post",
         // username:key
-        auth:"amir:7ddbe0111fdc0f6ecfc264f76efaf5f9-us21"
+        auth:"amir:99a61ba98c01c69e683a15a5cc2b9054-us21"
     }
 
     //post request
@@ -71,7 +71,7 @@ app.post("/", (req, res) =>
         {
             res.sendFile( __dirname+"/failure.html");
         }
-        response.on("data",function(data){})
+        
     })
 
     //send data to api
